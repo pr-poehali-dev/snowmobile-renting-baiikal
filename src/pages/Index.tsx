@@ -157,7 +157,7 @@ export default function Index() {
                 <CardTitle>Безопасность</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">Современное оборудование, профессиональные инструкторы и полное страхование</p>
+                <div className="text-muted-foreground">Современное оборудование, профессиональные инструкторы и полное страхование</div>
               </CardContent>
             </Card>
             <Card className="animate-scale-in hover:shadow-xl transition-shadow" style={{ animationDelay: '0.1s' }}>
@@ -166,7 +166,7 @@ export default function Index() {
                 <CardTitle>Живые маршруты</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">Без выезда на лёд. Только тайга, горные перевалы и панорамные виды</p>
+                <div className="text-muted-foreground">Без выезда на лёд. Только тайга, горные перевалы и панорамные виды</div>
               </CardContent>
             </Card>
             <Card className="animate-scale-in hover:shadow-xl transition-shadow" style={{ animationDelay: '0.2s' }}>
@@ -175,7 +175,7 @@ export default function Index() {
                 <CardTitle>Премиум уровень</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">Топовые снегоходы, комфортная экипировка и незабываемый сервис</p>
+                <div className="text-muted-foreground">Топовые снегоходы, комфортная экипировка и незабываемый сервис</div>
               </CardContent>
             </Card>
           </div>
@@ -291,7 +291,7 @@ export default function Index() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground italic">"{review.text}"</p>
+                  <div className="text-muted-foreground italic">"{review.text}"</div>
                 </CardContent>
               </Card>
             ))}
